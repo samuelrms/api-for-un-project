@@ -1,0 +1,14 @@
+[
+  {
+    "id": 3,
+    "title": "Saúde e Bem-Estar",
+    "objective": "Assegurar uma vida saudável e promover o bem-estar para todas e todos, em todas as idades",
+    "content": {
+      "firstObjective": "Até 2030, reduzir a taxa de mortalidade materna global para menos de 70 mortes por 100.000 nascidos vivos",
+      "secondObjective": "Até 2030, acabar com as mortes evitáveis de recém-nascidos e crianças menores de 5 anos, com todos os países objetivando reduzir a mortalidade neonatal para pelo menos 12 por 1.000 nascidos vivos e a mortalidade de crianças menores de 5 anos para pelo menos 25 por 1.000 nascidos vivos",
+      "thirdObjective": "Até 2030, acabar com as epidemias de AIDS, tuberculose, malária e doenças tropicais negligenciadas, e combater a hepatite, doenças transmitidas pela água, e outras doenças transmissíveis",
+      "fourthObjetive": "Até 2030, reduzir em um terço a mortalidade prematura por doenças não transmissíveis via prevenção e tratamento, e promover a saúde mental e o bem-estar",
+      "fifthObjective": "Reforçar a prevenção e o tratamento do abuso de substâncias, incluindo o abuso de drogas entorpecentes e uso nocivo do álcool"
+    }
+  }
+]

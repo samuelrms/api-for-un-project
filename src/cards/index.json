@@ -1,0 +1,16 @@
+[
+  {
+    "endPointsCards": {
+      "firstCard": "/cards/first_card",
+      "secondCard": "/cards/second_card",
+      "thirdCard": "/cards/third_card",
+      "fourthCard": "/cards/fourth_card",
+      "fifthCard": "/cards/fifth_card",
+      "sixthCard": "/cards/sixth_card",
+      "seventhCard": "/cards/seventh_card",
+      "eighthCard": "/cards/eighth_card",
+      "ninthCard": "/cards/ninth_card",
+      "tenthCard": "/cards/tenth_card"
+    }
+  }
+]

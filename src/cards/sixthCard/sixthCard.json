@@ -1,0 +1,14 @@
+[
+  {
+    "id": 6,
+    "title": "Água potável e saneamento",
+    "objective": "Assegurar a disponibilidade e gestão sustentável da água e saneamento para todas e todos",
+    "content": {
+      "firstObjective": "Até 2030, alcançar o acesso universal e equitativo a água potável e segura para todos",
+      "secondObjective": "Até 2030, alcançar o acesso a saneamento e higiene adequados e equitativos para todos, e acabar com a defecação a céu aberto, com especial atenção para as necessidades das mulheres e meninas e daqueles em situação de vulnerabilidade",
+      "thirdObjective": "Até 2030, melhorar a qualidade da água, reduzindo a poluição, eliminando despejo e minimizando a liberação de produtos químicos e materiais perigosos, reduzindo à metade a proporção de águas residuais não tratadas e aumentando substancialmente a reciclagem e reutilização segura globalmente",
+      "fourthObjetive": "Até 2030, aumentar substancialmente a eficiência do uso da água em todos os setores e assegurar retiradas sustentáveis e o abastecimento de água doce para enfrentar a escassez de água, e reduzir substancialmente o número de pessoas que sofrem com a escassez de água",
+      "fifthObjective": "Até 2030, implementar a gestão integrada dos recursos hídricos em todos os níveis, inclusive via cooperação transfronteiriça, conforme apropriado"
+    }
+  }
+]
