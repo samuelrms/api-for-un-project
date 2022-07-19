@@ -3,6 +3,6 @@
 
 ---
 
-# EndPoint de cards
-![image](https://user-images.githubusercontent.com/92615688/179645760-90dcbb0d-4b4b-4bff-8296-e70a771d0167.png)
-## https://api-for-un-project-github.herokuapp.com/cards
+# EndPoints
+![image](https://user-images.githubusercontent.com/92615688/179748479-cdd133ca-9ff1-47df-82b5-7ab20cbca815.png)
+## https://api-for-un-project-github.herokuapp.com/
