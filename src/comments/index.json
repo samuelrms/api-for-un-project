@@ -1,0 +1,46 @@
+[
+  {
+    "endPointsCardsComments": {
+      "firstCardComment": {
+        "id": 1,
+        "endPoints": "/comments/card_1"
+      },
+      "secondCardComment": {
+        "id": 2,
+        "endPoints": "/comments/card_2"
+      },
+      "thirdCardComment": {
+        "id": 3,
+        "endPoints": "/comments/card_3"
+      },
+      "fourthCardComment": {
+        "id": 4,
+        "endPoints": "/comments/card_4"
+      },
+      "fifthCardComment": {
+        "id": 5,
+        "endPoints": "/comments/card_5"
+      },
+      "sixthCardComment": {
+        "id": 6,
+        "endPoints": "/comments/card_6"
+      },
+      "seventhCardComment": {
+        "id": 7,
+        "endPoints": "/comments/card_7"
+      },
+      "eighthCardComment": {
+        "id": 8,
+        "endPoints": "/comments/card_8"
+      },
+      "ninthCardComment": {
+        "id": 9,
+        "endPoints": "/comments/card_9"
+      },
+      "tenthCardComment": {
+        "id": 10,
+        "endPoints": "/comments/card_10"
+      }
+    }
+  }
+]

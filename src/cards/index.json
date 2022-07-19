@@ -1,16 +1,46 @@
 [
   {
     "endPointsCards": {
-      "firstCard": "/cards/first_card",
-      "secondCard": "/cards/second_card",
-      "thirdCard": "/cards/third_card",
-      "fourthCard": "/cards/fourth_card",
-      "fifthCard": "/cards/fifth_card",
-      "sixthCard": "/cards/sixth_card",
-      "seventhCard": "/cards/seventh_card",
-      "eighthCard": "/cards/eighth_card",
-      "ninthCard": "/cards/ninth_card",
-      "tenthCard": "/cards/tenth_card"
+      "firstCard": {
+        "id": 1,
+        "endPoints": "/cards/card_1"
+      },
+      "secondCard": {
+        "id": 2,
+        "endPoints": "/cards/card_2"
+      },
+      "thirdCard": {
+        "id": 3,
+        "endPoints": "/cards/card_3"
+      },
+      "fourthCard": {
+        "id": 4,
+        "endPoints": "/cards/card_4"
+      },
+      "fifthCard": {
+        "id": 5,
+        "endPoints": "/cards/card_5"
+      },
+      "sixthCard": {
+        "id": 6,
+        "endPoints": "/cards/card_6"
+      },
+      "seventhCard": {
+        "id": 7,
+        "endPoints": "/cards/card_7"
+      },
+      "eighthCard": {
+        "id": 8,
+        "endPoints": "/cards/card_8"
+      },
+      "ninthCard": {
+        "id": 9,
+        "endPoints": "/cards/card_9"
+      },
+      "tenthCard": {
+        "id": 10,
+        "endPoints": "/cards/card_10"
+      }
     }
   }
 ]

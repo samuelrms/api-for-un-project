@@ -6,61 +6,104 @@ const { uuid } = require("uuidv4");
 
 app.use(express.json());
 
-const comments = require("./comments/comments.json");
+// Cards path
+const endpoints_cards = require("./cards/index.json");
+const first_card = require("./cards/firstCard/firstCard.json");
+const second_card = require("./cards/secondCard/secondCard.json");
+const third_card = require("./cards/thirdCard/thirdCard.json");
+const fourth_card = require("./cards/fourthCard/fourthCard.json");
+const fifth_card = require("./cards/fifthCard/fifthCard.json");
+const sixth_card = require("./cards/sixthCard/sixthCard.json");
+const seventh_card = require("./cards/seventhCard/seventhCard.json");
+const eighth_card = require("./cards/eighthCard/eighthCard.json");
+const ninth_card = require("./cards/ninthCard/ninthCard.json");
+const tenth_card = require("./cards/tenthCard/tenthCard.json");
 
-const endpoints_cards = require("../src/cards/index.json");
-const first_card = require("../src/cards/firstCard/firstCard.json");
-const second_card = require("../src/cards/secondCard/secondCard.json");
-const third_card = require("../src/cards/thirdCard/thirdCard.json");
-const fourth_card = require("../src/cards/fourthCard/fourthCard.json");
-const fifth_card = require("../src/cards/fifthCard/fifthCard.json");
-const sixth_card = require("../src/cards/sixthCard/sixthCard.json");
-const seventh_card = require("../src/cards/seventhCard/seventhCard.json");
-const eighth_card = require("../src/cards/eighthCard/eighthCard.json");
-const ninth_card = require("../src/cards/ninthCard/ninthCard.json");
-const tenth_card = require("../src/cards/tenthCard/tenthCard.json");
-
-app.get("/comments", (req, res) => {
-  return res.json(comments);
-});
-
-//Cards
+//Cards get endpoint
 app.get("/cards", (req, res) => {
   return res.json(endpoints_cards);
 });
-app.get("/cards/first_card", (req, res) => {
+app.get("/cards/card_1", (req, res) => {
   return res.json(first_card);
 });
-app.get("/cards/second_card", (req, res) => {
+app.get("/cards/card_2", (req, res) => {
   return res.json(second_card);
 });
-app.get("/cards/third_card", (req, res) => {
+app.get("/cards/card_3", (req, res) => {
   return res.json(third_card);
 });
-app.get("/cards/fourth_card", (req, res) => {
+app.get("/cards/card_4", (req, res) => {
   return res.json(fourth_card);
 });
-app.get("/cards/fifth_card", (req, res) => {
+app.get("/cards/card_5", (req, res) => {
   return res.json(fifth_card);
 });
-app.get("/cards/sixth_card", (req, res) => {
+app.get("/cards/card_6", (req, res) => {
   return res.json(sixth_card);
 });
-app.get("/cards/seventh_card", (req, res) => {
+app.get("/cards/card_7", (req, res) => {
   return res.json(seventh_card);
 });
-app.get("/cards/eighth_card", (req, res) => {
+app.get("/cards/card_8", (req, res) => {
   return res.json(eighth_card);
 });
-app.get("/cards/ninth_card", (req, res) => {
+app.get("/cards/card_9", (req, res) => {
   return res.json(ninth_card);
 });
-app.get("/cards/tenth_card", (req, res) => {
+app.get("/cards/card_10", (req, res) => {
   return res.json(tenth_card);
 });
 
+// Comments path
+const comments = require("./comments/index.json");
+const first_comments_card = require("./comments/firstCard/firstCard.json");
+const second_comments_card = require("./comments/secondCard/secondCard.json");
+const third_comments_card = require("./comments/thirdCard/thirdCard.json");
+const fourth_comments_card = require("./comments/fourthCard/fourthCard.json");
+const fifth_comments_card = require("./comments/fifthCard/fifthCard.json");
+const sixth_comments_card = require("./comments/sixthCard/sixthCard.json");
+const seventh_comments_card = require("./comments/seventhCard/seventhCard.json");
+const eighth_comments_card = require("./comments/eighthCard/eighthCard.json");
+const ninth_comments_card = require("./comments/ninthCard/ninthCard.json");
+const tenth_comments_card = require("./comments/tenthCard/tenthCard.json");
+
+// Comments get endpoint
+app.get("/comments", (req, res) => {
+  return res.json(comments);
+});
+app.get("/comments/card_1", (req, res) => {
+  return res.json(first_comments_card);
+});
+app.get("/comments/card_2", (req, res) => {
+  return res.json(second_comments_card);
+});
+app.get("/comments/card_3", (req, res) => {
+  return res.json(third_comments_card);
+});
+app.get("/comments/card_4", (req, res) => {
+  return res.json(fourth_comments_card);
+});
+app.get("/comments/card_5", (req, res) => {
+  return res.json(fifth_comments_card);
+});
+app.get("/comments/card_6", (req, res) => {
+  return res.json(sixth_comments_card);
+});
+app.get("/comments/card_7", (req, res) => {
+  return res.json(seventh_comments_card);
+});
+app.get("/comments/card_8", (req, res) => {
+  return res.json(eighth_comments_card);
+});
+app.get("/comments/card_9", (req, res) => {
+  return res.json(ninth_comments_card);
+});
+app.get("/comments/card_10", (req, res) => {
+  return res.json(tenth_comments_card);
+});
+
 //post comments
-app.post("/comments", (req, res) => {
+app.post("/comments/card_1", (req, res) => {
   const { name, comment } = req.body;
 
   const project = {
@@ -69,7 +112,133 @@ app.post("/comments", (req, res) => {
     comment,
   };
 
-  comments.push(project);
+  first_comments_card.push(project);
+
+  return res.status(201).json(project);
+});
+
+app.post("/comments/card_2", (req, res) => {
+  const { name, comment } = req.body;
+
+  const project = {
+    id: uuid(),
+    name,
+    comment,
+  };
+
+  second_comments_card.push(project);
+
+  return res.status(201).json(project);
+});
+
+app.post("/comments/card_3", (req, res) => {
+  const { name, comment } = req.body;
+
+  const project = {
+    id: uuid(),
+    name,
+    comment,
+  };
+
+  third_comments_card.push(project);
+
+  return res.status(201).json(project);
+});
+
+app.post("/comments/card_4", (req, res) => {
+  const { name, comment } = req.body;
+
+  const project = {
+    id: uuid(),
+    name,
+    comment,
+  };
+
+  fourth_card.push(project);
+
+  return res.status(201).json(project);
+});
+
+app.post("/comments/card_5", (req, res) => {
+  const { name, comment } = req.body;
+
+  const project = {
+    id: uuid(),
+    name,
+    comment,
+  };
+
+  fifth_comments_card.push(project);
+
+  return res.status(201).json(project);
+});
+
+app.post("/comments/card_6", (req, res) => {
+  const { name, comment } = req.body;
+
+  const project = {
+    id: uuid(),
+    name,
+    comment,
+  };
+
+  sixth_comments_card.push(project);
+
+  return res.status(201).json(project);
+});
+
+app.post("/comments/card_7", (req, res) => {
+  const { name, comment } = req.body;
+
+  const project = {
+    id: uuid(),
+    name,
+    comment,
+  };
+
+  seventh_comments_card.push(project);
+
+  return res.status(201).json(project);
+});
+
+app.post("/comments/card_8", (req, res) => {
+  const { name, comment } = req.body;
+
+  const project = {
+    id: uuid(),
+    name,
+    comment,
+  };
+
+  eighth_comments_card.push(project);
+
+  return res.status(201).json(project);
+});
+
+app.post("/comments/card_9", (req, res) => {
+  const { name, comment } = req.body;
+
+  const project = {
+    id: uuid(),
+    name,
+    comment,
+  };
+
+  ninth_comments_card.push(project);
+
+  return res.status(201).json(project);
+});
+
+app.post("/comments/card_10", (req, res) => {
+  const { name, comment } = req.body;
+
+  const project = {
+    id: uuid(),
+    name,
+    comment,
+  };
+
+  tenth_comments_card.push(project);
 
   return res.status(201).json(project);
 });
