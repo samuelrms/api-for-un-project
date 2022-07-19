@@ -243,6 +243,14 @@ app.post("/comments/card_10", (req, res) => {
   return res.status(201).json(project);
 });
 
+// Endpoints path
+const endPoints = require("./endpoints.json");
+
+// endPoints get
+app.get("/", (req, res) => {
+  return res.json(endPoints);
+});
+
 app.listen(port, () => {
   console.log("Servidor está rodando na porta " + port);
 });

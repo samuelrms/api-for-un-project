@@ -1,0 +1,8 @@
+[
+  {
+    "endPoints": {
+      "comments": "/comments",
+      "cards": "/cards"
+    }
+  }
+]
