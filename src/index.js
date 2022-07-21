@@ -6,52 +6,20 @@ const { uuid } = require("uuidv4");
 
 app.use(express.json());
 
+const cors = require("cors");
+const corsOptions = {
+  origin: "http://localhost:3000",
+  credentials: true, //access-control-allow-credentials:true
+  optionSuccessStatus: 200,
+};
+app.use(cors(corsOptions));
+
 // Cards path
 const endpoints_cards = require("./cards/index.json");
-const first_card = require("./cards/firstCard/firstCard.json");
-const second_card = require("./cards/secondCard/secondCard.json");
-const third_card = require("./cards/thirdCard/thirdCard.json");
-const fourth_card = require("./cards/fourthCard/fourthCard.json");
-const fifth_card = require("./cards/fifthCard/fifthCard.json");
-const sixth_card = require("./cards/sixthCard/sixthCard.json");
-const seventh_card = require("./cards/seventhCard/seventhCard.json");
-const eighth_card = require("./cards/eighthCard/eighthCard.json");
-const ninth_card = require("./cards/ninthCard/ninthCard.json");
-const tenth_card = require("./cards/tenthCard/tenthCard.json");
 
 //Cards get endpoint
 app.get("/cards", (req, res) => {
   return res.json(endpoints_cards);
-});
-app.get("/cards/card_1", (req, res) => {
-  return res.json(first_card);
-});
-app.get("/cards/card_2", (req, res) => {
-  return res.json(second_card);
-});
-app.get("/cards/card_3", (req, res) => {
-  return res.json(third_card);
-});
-app.get("/cards/card_4", (req, res) => {
-  return res.json(fourth_card);
-});
-app.get("/cards/card_5", (req, res) => {
-  return res.json(fifth_card);
-});
-app.get("/cards/card_6", (req, res) => {
-  return res.json(sixth_card);
-});
-app.get("/cards/card_7", (req, res) => {
-  return res.json(seventh_card);
-});
-app.get("/cards/card_8", (req, res) => {
-  return res.json(eighth_card);
-});
-app.get("/cards/card_9", (req, res) => {
-  return res.json(ninth_card);
-});
-app.get("/cards/card_10", (req, res) => {
-  return res.json(tenth_card);
 });
 
 // Comments path
@@ -154,7 +122,7 @@ app.post("/comments/card_4", (req, res) => {
     comment,
   };
 
-  fourth_card.push(project);
+  fourth_comments_card.push(project);
 
   return res.status(201).json(project);
 });
