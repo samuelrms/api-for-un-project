@@ -3,7 +3,8 @@
     {
       "id": 1,
       "idToBackground": "firstCard",
-      "image": "https://www.svgrepo.com/show/78827/family.svg",
+      "imageDark": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/70d9d18c7e6756a67fadf0d4eff110504c540cc7/family-dark.svg",
+      "imageLight": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/70d9d18c7e6756a67fadf0d4eff110504c540cc7/family.svg",
       "title": "Erradicação da pobreza",
       "objective": "Acabar com a pobreza em todas as suas formas, em todos os lugares",
       "content": {
@@ -17,7 +18,8 @@
     {
       "id": 2,
       "idToBackground": "secondCard",
-      "image": "https://www.svgrepo.com/show/151362/soup.svg",
+      "imageDark": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/70d9d18c7e6756a67fadf0d4eff110504c540cc7/soup-dark.svg",
+      "imageLight": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/70d9d18c7e6756a67fadf0d4eff110504c540cc7/soup.svg",
       "title": "Fome zero e agricultura sustentável",
       "objective": "Acabar com a fome, alcançar a segurança alimentar e melhoria da nutrição e promover a agricultura sustentável",
       "content": {
@@ -31,7 +33,8 @@
     {
       "id": 3,
       "idToBackground": "thirdCard",
-      "image": "https://www.svgrepo.com/show/154308/pulse.svg",
+      "imageDark": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/70d9d18c7e6756a67fadf0d4eff110504c540cc7/pulse-dark.svg",
+      "imageLight": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/70d9d18c7e6756a67fadf0d4eff110504c540cc7/pulse.svg",
       "title": "Saúde e Bem-Estar",
       "objective": "Assegurar uma vida saudável e promover o bem-estar para todas e todos, em todas as idades",
       "content": {
@@ -45,7 +48,8 @@
     {
       "id": 4,
       "idToBackground": "fourthCard",
-      "image": "https://www.svgrepo.com/show/172997/charity-education.svg",
+      "imageDark": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/c355e788d88a91a521cb6f31b72c74a9ac20bcd7/charity-education-dark.svg",
+      "imageLight": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/70d9d18c7e6756a67fadf0d4eff110504c540cc7/charity-education.svg",
       "title": "Educação de qualidade",
       "objective": "Assegurar a educação inclusiva e equitativa e de qualidade, e promover oportunidades de aprendizagem ao longo da vida para todas e todos",
       "content": {
@@ -59,7 +63,8 @@
     {
       "id": 5,
       "idToBackground": "fifthCard",
-      "image": "https://www.svgrepo.com/show/182205/orgy-gender.svg",
+      "imageDark": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/70d9d18c7e6756a67fadf0d4eff110504c540cc7/orgy-gender-dark.svg",
+      "imageLight": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/70d9d18c7e6756a67fadf0d4eff110504c540cc7/orgy-gender.svg",
       "title": "Igualdade de gênero",
       "objective": "Alcançar a igualdade de gênero e empoderar todas as mulheres e meninas",
       "content": {
@@ -73,7 +78,8 @@
     {
       "id": 6,
       "idToBackground": "sixthCard",
-      "image": "https://www.svgrepo.com/show/48779/water.svg",
+      "imageDark": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/70d9d18c7e6756a67fadf0d4eff110504c540cc7/water-dark.svg",
+      "imageLight": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/70d9d18c7e6756a67fadf0d4eff110504c540cc7/water.svg",
       "title": "Água potável e saneamento",
       "objective": "Assegurar a disponibilidade e gestão sustentável da água e saneamento para todas e todos",
       "content": {
@@ -87,7 +93,8 @@
     {
       "id": 7,
       "idToBackground": "seventhCard",
-      "image": "https://www.svgrepo.com/show/244797/plug-energy.svg",
+      "imageDark": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/70d9d18c7e6756a67fadf0d4eff110504c540cc7/plug-energy-dark.svg",
+      "imageLight": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/70d9d18c7e6756a67fadf0d4eff110504c540cc7/plug-energy-light.svg",
       "title": "Energia limpa e acessível",
       "objective": "Assegurar o acesso confiável, sustentável, moderno e a preço acessível à energia para todas e todos",
       "content": {
@@ -99,7 +106,8 @@
     {
       "id": 8,
       "idToBackground": "eighthCard",
-      "image": "https://www.svgrepo.com/show/202346/economy.svg",
+      "imageDark": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/70d9d18c7e6756a67fadf0d4eff110504c540cc7/economy-dark.svg",
+      "imageLight": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/70d9d18c7e6756a67fadf0d4eff110504c540cc7/economy-light.svg",
       "title": "Trabalho decente e crescimento econômico",
       "objective": "Promover o crescimento econômico sustentado, inclusivo e sustentável, emprego pleno e produtivo e trabalho decente para todas e todos",
       "content": {
@@ -113,7 +121,8 @@
     {
       "id": 9,
       "idToBackground": "ninthCard",
-      "image": "https://www.svgrepo.com/show/77662/clean-industry.svg",
+      "imageDark": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/c355e788d88a91a521cb6f31b72c74a9ac20bcd7/clean-industryDark.svg",
+      "imageLight": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/c355e788d88a91a521cb6f31b72c74a9ac20bcd7/clean-industryLight.svg",
       "title": "Indústria, inovação e infraestrutura",
       "objective": "Construir infraestruturas resilientes, promover a industrialização inclusiva e sustentável e fomentar a inovação",
       "content": {
@@ -127,7 +136,8 @@
     {
       "id": 10,
       "idToBackground": "tenthCard",
-      "image": "https://www.svgrepo.com/show/393653/equal.svg",
+      "imageDark": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/c355e788d88a91a521cb6f31b72c74a9ac20bcd7/equal-svg-dark.svg",
+      "imageLight": "https://gist.githubusercontent.com/samuelrms/5d22a37d280ff7641c6b878566983b83/raw/c355e788d88a91a521cb6f31b72c74a9ac20bcd7/equal-svg-light.svg",
       "title": "Redução das desigualdades",
       "objective": "Reduzir a desigualdade dentro dos países e entre eles",
       "content": {
