@@ -3,13 +3,12 @@ const app = express();
 const port = process.env.PORT || 8001;
 
 const { uuid } = require("uuidv4");
-
 app.use(express.json());
 
 const cors = require("cors");
 const corsOptions = {
-  origin: "https://desafio-final-mod-3.herokuapp.com",
-  // origin: "http://localhost:3000",
+  // origin: "https://desafio-final-mod-3.herokuapp.com",
+  origin: "http://localhost:3000",
   credentials: true,
   optionSuccessStatus: 200,
 };
