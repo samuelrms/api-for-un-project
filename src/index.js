@@ -36,7 +36,6 @@ const eighth_comments_card = require("./comments/eighthCard/eighthCard.json");
 const ninth_comments_card = require("./comments/ninthCard/ninthCard.json");
 const tenth_comments_card = require("./comments/tenthCard/tenthCard.json");
 
-// Comments get endpoint
 app.get("/comments", (req, res) => {
   return res.json(comments);
 });
