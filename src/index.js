@@ -6,6 +6,7 @@ const { uuid } = require("uuidv4");
 
 app.use(express.json());
 
+// liberando request na API para local e na aplicação web
 const cors = require("cors");
 const corsOptions = {
   origin: "https://desafio-final-mod-3.herokuapp.com",
