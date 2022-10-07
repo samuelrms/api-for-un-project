@@ -9,7 +9,8 @@ app.use(express.json());
 // liberando request na API para local e na aplicação web
 const cors = require("cors");
 const corsOptions = {
-  origin: "https://desafio-final-mod-3.herokuapp.com",
+  origin: "https://63407aa336e31e052866a31c--stellar-stardust-46c965.netlify.app"
+  // origin: "https://desafio-final-mod-3.herokuapp.com", 
   // origin: "http://localhost:3000",
   credentials: true,
   optionSuccessStatus: 200,
