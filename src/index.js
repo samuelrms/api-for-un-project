@@ -11,7 +11,7 @@ const cors = require("cors");
 const corsOptions = {
   origin: "https://sustainability-un-optimization-patbt.ondigitalocean.app/",
   // origin: "http://localhost:3000",
-  credentials: false,
+  credentials: true,
   optionSuccessStatus: 200,
   optionSuccessStatus: 200,
 };
