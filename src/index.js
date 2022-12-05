@@ -9,7 +9,7 @@ app.use(express.json());
 // liberando request na API para local e na aplicação web
 const cors = require("cors");
 const corsOptions = {
-  origin: "https://stellar-stardust-46c965.netlify.app/",
+  origin: "https://sustainability-un-optimization-patbt.ondigitalocean.app/",
   // origin: "http://localhost:3000",
   credentials: false,
   optionSuccessStatus: 200,
