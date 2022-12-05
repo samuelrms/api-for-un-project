@@ -12,7 +12,6 @@ const corsOptions = {
   origin: "https://stellar-stardust-46c965.netlify.app/"
   // origin: "https://desafio-final-mod-3.herokuapp.com", 
   // origin: "http://localhost:3000",
-  credentials: true,
   optionSuccessStatus: 200,
 };
 app.use(cors(corsOptions));
