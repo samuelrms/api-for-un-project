@@ -7,6 +7,15 @@ const { uuid } = require("uuidv4");
 app.use(express.json());
 
 // liberando request na API para local e na aplicação web
+const cors = require("cors");
+const corsOptions = {
+  origin: "https://stellar-stardust-46c965.netlify.app/",
+  // origin: "http://localhost:3000",
+  credentials: false,
+  optionSuccessStatus: 200,
+  optionSuccessStatus: 200,
+};
+app.use(cors(corsOptions));
 
 // Cards path
 const endpoints_cards = require("./cards/index.json");
